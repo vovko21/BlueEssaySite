@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.c-lightblue {
+    color: #03a9f4;
+}
+
+.c-grayblue {
+    color: #323538;
+}
+
+.c-lightgray {
+    color: #656a70;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-orange{
+    color: #f75e2e;
+}
+
+.font-popins-bold {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-popins-light {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+.font-popins-semibold {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 15px;
+}
+
+.font-popins-regular {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-popins-medium {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-popins-light {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-museo{
+    font-family: 'Museo Sans 700';
+    src: url('MuseoSans-700.woff2') format('woff2'),
+        url('MuseoSans-700.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.main-section {
+    background-image: url(../images/main/city-bg.png);
+    height: 600px;
+}
+
+.girl-img {
+    z-index: 1;
+    transform: translateY(70px);
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.main-form {
+    transform: translateY(50px);
+    height: 135px;
+}
+
+.selector {
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.welcome-text {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: flex-end;
+}
+
+.adv-section {
+    background-image: url(../images/main/adv-bg.png);
+}
+
+.block {
+    width: 360px;
+    height: 310px;
+    background-color: #fff;
+}
+
+.how-it-works {
+    height: 600px;
+}
+
+.adv-img {
+    background-image: url(../images/main/adv-Ellipse.png);
+}
+
+.hiw-block {
+    width: 260px;
+    height: 350px;
+}
+
+.ds-section {
+    height: 550px;
+    background-image: url(../images/main/ds-bg.png);
+}
+
+.dc-block {
+    height: 485px;
+    width: 1000px;
+}
+
+.dc-text {
+    width: 600px;
+}
+
+.dc-off {
+    width: 400px;
+}
+
+.dc-ds-block{
+    width: 50%;
+}
+
+.feedbacks{
+    margin-top: 200px;
+    height: 600px;
+}
+
+footer{
+    height: 520px;
+}
+
+hr{
+    margin: 0px;
+    color:white;
+}

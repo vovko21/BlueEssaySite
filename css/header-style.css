@@ -1,0 +1,36 @@
+.bg-lightblue {
+    background-color: #03a9f4;
+}
+
+#phoneIconHeader {
+    margin-left: 10px;
+    align-self: center !important;
+}
+
+.btn-lightblue {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 12px;
+
+    outline: none !important;
+    background-color: #0287c3;
+    color: white;
+}
+
+.btn-orange{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 12px;
+
+    outline: none !important;
+    background-color: #f75e2e;
+    color: white;
+}
+
+.w-100{
+    width: 100px;
+}
