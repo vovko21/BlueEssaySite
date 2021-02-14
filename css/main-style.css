@@ -76,6 +76,10 @@ body {
     height: 80px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
 .btn-signin {
     width: 100px;
     height: 40px;
@@ -92,6 +96,10 @@ body {
     transform: translateY(70px);
     margin-left: auto;
     margin-right: 60px;
+}
+
+.girl-img-hidden {
+    display: none;
 }
 
 .main-form {
