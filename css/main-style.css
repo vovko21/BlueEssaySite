@@ -3,6 +3,47 @@ body {
     padding: 0px;
 }
 
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-33 {
+    font-size: 33px;
+}
+
+.fs-34 {
+    font-size: 34px;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -23,66 +64,22 @@ body {
     color: white;
 }
 
-.c-orange{
+.c-orange {
     color: #f75e2e;
 }
 
-.font-popins-bold {
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+.c-yellow {
+    color: #ecfa4d;
 }
 
-.font-popins-light {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 300;
+.hght-80px {
+    height: 80px;
 }
 
-.font-popins-semibold {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-    font-size: 15px;
-}
-
-.font-popins-regular {
-    font-family: 'Poppins';
-    src: url('Poppins-Regular.woff2') format('woff2'),
-        url('Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-.font-popins-medium {
-    font-family: 'Poppins';
-    src: url('Poppins-Medium.woff2') format('woff2'),
-        url('Poppins-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-.font-popins-light {
-    font-family: 'Poppins';
-    src: url('Poppins-Light.woff2') format('woff2'),
-        url('Poppins-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-.font-museo{
-    font-family: 'Museo Sans 700';
-    src: url('MuseoSans-700.woff2') format('woff2'),
-        url('MuseoSans-700.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+.btn-signin {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
 }
 
 .main-section {
@@ -102,6 +99,27 @@ body {
     height: 135px;
 }
 
+.form {
+    height: 100px;
+}
+
+.form-continue {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.welcome-section {
+    height: 600px;
+}
+
+.place-an-order {
+    width: 220px;
+    height: 50px;
+    margin-top: 50px;
+}
+
 .selector {
     width: 200px;
     height: 50px;
@@ -116,7 +134,15 @@ body {
 }
 
 .adv-section {
+    height: 600px;
     background-image: url(../images/main/adv-bg.png);
+}
+
+.btn-continue {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .block {
@@ -130,6 +156,10 @@ body {
 }
 
 .adv-img {
+    z-index: 1;
+    width: 85px;
+    height: 85px;
+    margin-left: 40%;
     background-image: url(../images/main/adv-Ellipse.png);
 }
 
@@ -156,20 +186,25 @@ body {
     width: 400px;
 }
 
-.dc-ds-block{
+.dc-off-image {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.dc-ds-block {
     width: 50%;
 }
 
-.feedbacks{
+.feedbacks {
     margin-top: 200px;
     height: 600px;
 }
 
-footer{
+footer {
     height: 520px;
 }
 
-hr{
+hr {
     margin: 0px;
-    color:white;
+    color: white;
 }
