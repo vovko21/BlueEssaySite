@@ -15,7 +15,7 @@
 
 <body>
     <div class="landing-page">
-        <!-- Main header -->
+        <!-- Header -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-lightblue">
                 <div class="container">
@@ -175,7 +175,7 @@
                             <p class="font-popins-medium mt-4 fs-17">
                                 Professionally-qualified
                                 writing experts</p>
-                            <p class="font-popins-light fs-14 ta-center">But I must
+                            <p class="font-popins-light fs-14 text-center">But I must
                                 explain to you how all this mistaken idea of denouncing pleasure and praising pain was
                                 born
                             </p>
@@ -184,10 +184,8 @@
                     <div class="col-12 col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center mb-3">
                         <div class="block d-flex flex-column align-items-center justify-content-center">
                             <img class="adv-img" src="images/main/adv-2.png">
-                            <p class="font-popins-medium mt-4 fs-17">Top-quality,
-                                at a
-                                great price - guaranteed</p>
-                            <p class="font-popins-light fs-14 ta-center">But I must
+                            <p class="font-popins-medium mt-4 text-center fs-17">Top-quality,at a great price - guaranteed</p>
+                            <p class="font-popins-light fs-14 text-center">But I must
                                 explain to you how all this mistaken idea of denouncing pleasure and praising pain was
                                 born
                             </p>
@@ -199,7 +197,7 @@
                             <p class="font-popins-medium mt-4 fs-17">Top-quality,
                                 at agreat price - guaranteed
                             </p>
-                            <p class="font-popins-light fs-14 ta-center">But I must
+                            <p class="font-popins-light fs-14 text-center">But I must
                                 explain to you how all this mistaken idea of denouncing pleasure and praising pain was
                                 born
                             </p>
@@ -268,13 +266,13 @@
                     <p class="c-white font-popins-light fs-15">04 Discounts</p>
                 </div>
                 <h1 class="c-white font-popins-medium fs-33">Our discount program</h1>
-                <p class="d-flex c-white font-popins-medium justify-content-center fs-20">
+                <p class="d-flex c-white font-popins-medium justify-content-center text-center fs-20">
                     By utilizing elements and principles of Material Design, we were <br> able to create a framework
                     that incorporates
                 </p>
             </div>
             <!-- Discount block -->
-            <div class="container d-flex dc-block mt-5">
+            <div class="container d-flex dc-block justify-content-center mt-5">
                 <!-- Off text -->
                 <div class="dc-text bg-white d-flex flex-column justify-content-around">
                     <div class="d-flex">
@@ -303,28 +301,36 @@
                     </div>
                 </div>
                 <!-- Off image -->
-                <div class="dc-off bg-lightblue">
+                <div class="dc-off bg-lightblue" id="off-img">
                     <img class="dc-off-image" src="images/main/dc-15_off.png">
                 </div>
             </div>
         </section>
         <!-- Courusel feedbacks section -->
-        <section class="feedbacks">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <section class="feedbacks" id="feedbacks">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <p class="c-lightblue font-popins-regular mt-5 fs-13">05 Testimonials</p>
+                <h1 class="font-popins-medium fs-33">What our clients says</h1>
+            </div>
+            <div id="carouselExampleControlsNoTouching" class="carousel carousel-dark slide" data-bs-touch="false"
+                data-bs-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/main/fd-1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/main/fd-1.png" class="d-block w-100" alt="...">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -340,7 +346,7 @@
                         <img src="images/header/icon-logo.png">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li class="nav-item font-popins-semibold">
                                 <a class="nav-link font-popins-semibold active" aria-current="page" href="#">HOME</a>
                             </li>
@@ -369,7 +375,7 @@
             <!-- Text -->
             <div class="container d-flex flex-column justify-content-around">
                 <hr>
-                <div class="d-flex justify-content-between mt-5" style="width: 100%;">
+                <div class="d-flex justify-content-between mt-5">
                     <div class="footer-block">
                         <h4 class="c-white font-popins-medium fs-16">Section number1</h4>
                         <p class="c-white font-popins-regular fs-13">
@@ -426,24 +432,35 @@
                 <hr class="mt-5">
             </div>
             <!-- Socials -->
-            <div class="container d-flex justify-content-between mt-5">
-                <p class="c-white font-museo fs-12">Copyright В© 2017 BlueEssaySite.net <br>
-                    All rights reserved.</p>
-                <div>
-                    <img src="images/footer/socials.png">
-                </div>
-                <div class="d-flex" style="width: 250px;">
-                    <img src="images/footer/phone.png">
-                    <div style="margin-left: 10px;">
-                        <div class="c-white font-popins-medium fs-13">Tall free:</div>
-                        <div class="c-white font-popins-bold fs-15">+ 3 044 111 2732</div>
+            <div class="container mt-5">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 col-sm-4">
+                        <p class="c-white font-museo fs-12">Copyright В© 2017 BlueEssaySite.net <br>
+                            All rights reserved.
+                        </p>
                     </div>
-                </div>
-                <div class="d-flex" style="width: 250px;">
-                    <img src="images/footer/email.png">
-                    <div style="margin-left: 10px;">
-                        <div class="c-white font-popins-medium fs-13">Email:</div>
-                        <div class="c-white font-popins-medium fs-13"> blueessaysite@gmail.com</div>
+                    <div class="col-lg-3 col-sm-4" id="socials-img">
+                        <div>
+                            <img src="images/footer/socials.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="d-flex align-items-center">
+                            <img class="s-15" src="images/footer/phone.png">
+                            <div class="ml-10 mt-1">
+                                <div class="c-white font-popins-medium fs-13">Tall free:</div>
+                                <div class="c-white font-popins-bold fs-15">+ 3 044 111 2732</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-4">
+                        <div class="d-flex align-items-center">
+                            <img class="s-15" src="images/footer/email.png">
+                            <div class="ml-10 mt-1">
+                                <div class="c-white font-popins-medium fs-13">Email:</div>
+                                <div class="c-white font-popins-medium fs-13"> blueessaysite@gmail.com</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

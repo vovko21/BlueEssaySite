@@ -80,6 +80,10 @@ body {
     height: 130px;
 }
 
+.hght-400{
+    height: 400px !important;
+}
+
 .hght-1200 {
     height: 1300px !important;
 }
@@ -92,12 +96,12 @@ body {
     margin-top: 200px !important;
 }
 
-.mt-auto {
-    margin-top: auto !important;
+.ml-10{
+    margin-left: 10px;
 }
 
-.ta-center{
-    text-align: center;
+.mt-auto {
+    margin-top: auto !important;
 }
 
 .btn-signin {
@@ -186,7 +190,6 @@ body {
 
 .dc-block {
     height: 485px;
-    width: 1000px;
 }
 
 .dc-text {
@@ -211,11 +214,34 @@ body {
     height: 600px;
 }
 
-footer {
-    height: 520px;
-}
-
 hr {
     margin: 0px;
     color: white;
 }
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+}
+
+.s-15 {
+    width: 35px;
+    height: 35px;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
