@@ -170,59 +170,60 @@
 }
 
 .font-popins-bold {
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'Poppins' !important;
+    font-weight: 800 !important; 
+    font-style: normal !important;
+    font-display: swap !important;
 }
 
 .font-popins-light {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 300;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-display: swap !important;
+    font-weight: 300 !important;
 }
 
 .font-popins-semibold {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-    font-size: 15px;
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-display: swap !important;
+    font-size: 15px !important;
 }
 
 .font-popins-regular {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
     src: url('Poppins-Regular.woff2') format('woff2'),
-        url('Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+        url('Poppins-Regular.woff') format('woff') !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-display: swap !important;
 }
 
 .font-popins-medium {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
     src: url('Poppins-Medium.woff2') format('woff2'),
-        url('Poppins-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+        url('Poppins-Medium.woff') format('woff') !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-display: swap !important;
 }
 
 .font-popins-light {
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
     src: url('Poppins-Light.woff2') format('woff2'),
-        url('Poppins-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+        url('Poppins-Light.woff') format('woff') !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    font-display: swap !important;
 }
 
 .font-museo{
     font-family: 'Museo Sans 700';
     src: url('MuseoSans-700.woff2') format('woff2'),
-        url('MuseoSans-700.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+        url('MuseoSans-700.woff') format('woff') !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-display: swap !important;
+    font-display: swap !important;
 }
